@@ -1,0 +1,21 @@
+# Create a factor from women's heights dataset
+height_factor <- factor(women$height)
+
+print("Factor from women's heights:")
+print(height_factor)
+
+# Create a random sample of LETTERS and convert to factor
+set.seed(123)
+letter_sample <- sample(LETTERS[1:5], 10, replace = TRUE)
+letter_factor <- factor(letter_sample)
+
+print("Random LETTERS Factor:")
+print(letter_factor)
+
+# Display levels
+print("Levels of Letter Factor:")
+print(levels(letter_factor))
+
+# Display frequency of each level
+print("Frequency Table:")
+print(table(letter_factor))
