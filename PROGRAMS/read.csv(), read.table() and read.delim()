@@ -1,0 +1,12 @@
+# Comma-separated file
+data1 <- read.csv("sales.csv")
+
+# General text file
+data2 <- read.table("data.txt", header = TRUE)
+
+# Tab-separated file
+data3 <- read.delim("students.txt")
+
+print(data1)
+print(data2)
+print(data3)
